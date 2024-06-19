@@ -98,8 +98,12 @@
 		A0BB586B2C23938D00C828EB /* LingoSound */ = {
 			isa = PBXGroup;
 			children = (
-				A0BB586C2C23938D00C828EB /* LingoSoundApp.swift */,
-				A0BB586E2C23938D00C828EB /* ContentView.swift */,
+				A0BB58A02C239AA100C828EB /* Utilities */,
+				A0BB589F2C239A9800C828EB /* Services */,
+				A0BB589E2C239A6700C828EB /* Models */,
+				A0BB589D2C239A5F00C828EB /* App */,
+				A0BB589C2C2399D000C828EB /* Resources */,
+				A0BB589B2C2399C400C828EB /* Scenes */,
 				A0BB58702C23939000C828EB /* Assets.xcassets */,
 				A0BB58752C23939000C828EB /* Persistence.swift */,
 				A0BB58772C23939000C828EB /* LingoSound.xcdatamodeld */,
@@ -131,6 +135,58 @@
 				A0BB588E2C23939100C828EB /* LingoSoundUITestsLaunchTests.swift */,
 			);
 			path = LingoSoundUITests;
+			sourceTree = "<group>";
+		};
+		A0BB589B2C2399C400C828EB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A0BB58A12C239D5A00C828EB /* Account */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A0BB589C2C2399D000C828EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A0BB589D2C239A5F00C828EB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A0BB586C2C23938D00C828EB /* LingoSoundApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A0BB589E2C239A6700C828EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A0BB589F2C239A9800C828EB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A0BB58A02C239AA100C828EB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A0BB58A12C239D5A00C828EB /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				A0BB586E2C23938D00C828EB /* ContentView.swift */,
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
