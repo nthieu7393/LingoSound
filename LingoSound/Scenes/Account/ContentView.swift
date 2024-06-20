@@ -19,52 +19,40 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ScrollView(.horizontal) {
-                LazyHGrid(rows: /*@START_MENU_TOKEN@*/[GridItem(.fixed(20))]/*@END_MENU_TOKEN@*/, pinnedViews: /*@START_MENU_TOKEN@*/[]/*@END_MENU_TOKEN@*/, content: {
-                    /*@START_MENU_TOKEN@*/Text("Placeholder")/*@END_MENU_TOKEN@*/
-                    /*@START_MENU_TOKEN@*/Text("Placeholder")/*@END_MENU_TOKEN@*/
-                })
-            }
-        }.hidden()
-    }
+                LazyHGrid(
+                    rows: [GridItem()],
+                    pinnedViews: /*@START_MENU_TOKEN@*/[]/*@END_MENU_TOKEN@*/,
+                    content: {
+                        Button(action: {
+                            
+                        }, label: {
+                            Image("plus-icon")
+                                .foregroundStyle(.blue)
+                                .padding(EdgeInsets(
+                                    top: 20,
+                                    leading: 20,
+                                    bottom: 20,
+                                    trailing: 20)
+                                )
+                        }).background(Circle().fill(Color.blue))
+                        
+                        Button(action: {
 
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-            }
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            offsets.map { items[$0] }.forEach(viewContext.delete)
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+                        }, label: {
+                            Image("plus-icon")
+                                .foregroundStyle(.blue)
+                                .padding(EdgeInsets(
+                                    top: 20,
+                                    leading: 20,
+                                    bottom: 20,
+                                    trailing: 20)
+                                )
+                        }).background(Circle().fill(Color.blue))
+                    }).padding(EdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20))
             }
         }
     }
 }
-
-private let itemFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .medium
-    return formatter
-}()
 
 #Preview {
     ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
