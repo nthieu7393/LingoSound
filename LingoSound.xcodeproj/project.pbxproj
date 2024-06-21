@@ -16,6 +16,10 @@
 		A0BB58832C23939000C828EB /* LingoSoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB58822C23939000C828EB /* LingoSoundTests.swift */; };
 		A0BB588D2C23939100C828EB /* LingoSoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB588C2C23939100C828EB /* LingoSoundUITests.swift */; };
 		A0BB588F2C23939100C828EB /* LingoSoundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB588E2C23939100C828EB /* LingoSoundUITestsLaunchTests.swift */; };
+		A0BB58A32C24EA2400C828EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB58A22C24EA2400C828EB /* Constants.swift */; };
+		A0BB58A52C252E2400C828EB /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB58A42C252E2400C828EB /* Account.swift */; };
+		A0BB58A72C252ED000C828EB /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB58A62C252ED000C828EB /* AccountViewModel.swift */; };
+		A0BB58A92C2532BC00C828EB /* AuthenticationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB58A82C2532BC00C828EB /* AuthenticationServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		A0BB58882C23939100C828EB /* LingoSoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LingoSoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BB588C2C23939100C828EB /* LingoSoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingoSoundUITests.swift; sourceTree = "<group>"; };
 		A0BB588E2C23939100C828EB /* LingoSoundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingoSoundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0BB58A22C24EA2400C828EB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A0BB58A42C252E2400C828EB /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		A0BB58A62C252ED000C828EB /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		A0BB58A82C2532BC00C828EB /* AuthenticationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +115,6 @@
 				A0BB58702C23939000C828EB /* Assets.xcassets */,
 				A0BB58752C23939000C828EB /* Persistence.swift */,
 				A0BB58772C23939000C828EB /* LingoSound.xcdatamodeld */,
-				A0BB58722C23939000C828EB /* Preview Content */,
 			);
 			path = LingoSound;
 			sourceTree = "<group>";
@@ -163,6 +170,7 @@
 		A0BB589E2C239A6700C828EB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A0BB58A42C252E2400C828EB /* Account.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,6 +178,7 @@
 		A0BB589F2C239A9800C828EB /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				A0BB58A82C2532BC00C828EB /* AuthenticationServices.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -177,6 +186,7 @@
 		A0BB58A02C239AA100C828EB /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				A0BB58A22C24EA2400C828EB /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -184,7 +194,9 @@
 		A0BB58A12C239D5A00C828EB /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				A0BB58722C23939000C828EB /* Preview Content */,
 				A0BB586E2C23938D00C828EB /* ContentView.swift */,
+				A0BB58A62C252ED000C828EB /* AccountViewModel.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -319,10 +331,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0BB58A32C24EA2400C828EB /* Constants.swift in Sources */,
+				A0BB58A72C252ED000C828EB /* AccountViewModel.swift in Sources */,
 				A0BB58762C23939000C828EB /* Persistence.swift in Sources */,
+				A0BB58A92C2532BC00C828EB /* AuthenticationServices.swift in Sources */,
 				A0BB58792C23939000C828EB /* LingoSound.xcdatamodeld in Sources */,
 				A0BB586F2C23938D00C828EB /* ContentView.swift in Sources */,
 				A0BB586D2C23938D00C828EB /* LingoSoundApp.swift in Sources */,
+				A0BB58A52C252E2400C828EB /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
