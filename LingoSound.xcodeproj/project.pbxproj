@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A03C29792C2B42F2003F1633 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03C29782C2B42F2003F1633 /* SignInView.swift */; };
+		A03C297B2C2C679C003F1633 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03C297A2C2C679C003F1633 /* SignInViewModel.swift */; };
+		A0A4C44C2C2B2EFF0033E11F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0A4C44B2C2B2EFE0033E11F /* GoogleService-Info.plist */; };
 		A0BB586D2C23938D00C828EB /* LingoSoundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB586C2C23938D00C828EB /* LingoSoundApp.swift */; };
-		A0BB586F2C23938D00C828EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB586E2C23938D00C828EB /* ContentView.swift */; };
+		A0BB586F2C23938D00C828EB /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB586E2C23938D00C828EB /* AccountView.swift */; };
 		A0BB58712C23939000C828EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BB58702C23939000C828EB /* Assets.xcassets */; };
 		A0BB58742C23939000C828EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BB58732C23939000C828EB /* Preview Assets.xcassets */; };
 		A0BB58762C23939000C828EB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB58752C23939000C828EB /* Persistence.swift */; };
@@ -20,6 +23,13 @@
 		A0BB58A52C252E2400C828EB /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB58A42C252E2400C828EB /* Account.swift */; };
 		A0BB58A72C252ED000C828EB /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB58A62C252ED000C828EB /* AccountViewModel.swift */; };
 		A0BB58A92C2532BC00C828EB /* AuthenticationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB58A82C2532BC00C828EB /* AuthenticationServices.swift */; };
+		A0BB58AD2C2752E300C828EB /* NerkoOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0BB58AB2C2750EE00C828EB /* NerkoOne-Regular.ttf */; };
+		A0BB58AE2C2752E400C828EB /* NerkoOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0BB58AB2C2750EE00C828EB /* NerkoOne-Regular.ttf */; };
+		A0BB58AF2C2752E500C828EB /* NerkoOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0BB58AB2C2750EE00C828EB /* NerkoOne-Regular.ttf */; };
+		A0BB58B32C27563D00C828EB /* CaptionText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB58B22C27563D00C828EB /* CaptionText.swift */; };
+		A0BB58B62C2759DC00C828EB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB58B52C2759DC00C828EB /* HomeViewModel.swift */; };
+		A0BB58B82C2759EE00C828EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB58B72C2759EE00C828EB /* HomeView.swift */; };
+		A0BB58BD2C27EF7200C828EB /* ViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BB58BC2C27EF7200C828EB /* ViewWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A03C29782C2B42F2003F1633 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		A03C297A2C2C679C003F1633 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		A0A4C44B2C2B2EFE0033E11F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A0BB58692C23938D00C828EB /* LingoSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LingoSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BB586C2C23938D00C828EB /* LingoSoundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingoSoundApp.swift; sourceTree = "<group>"; };
-		A0BB586E2C23938D00C828EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0BB586E2C23938D00C828EB /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		A0BB58702C23939000C828EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0BB58732C23939000C828EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0BB58752C23939000C828EB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -56,6 +69,12 @@
 		A0BB58A42C252E2400C828EB /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		A0BB58A62C252ED000C828EB /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		A0BB58A82C2532BC00C828EB /* AuthenticationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationServices.swift; sourceTree = "<group>"; };
+		A0BB58AB2C2750EE00C828EB /* NerkoOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NerkoOne-Regular.ttf"; sourceTree = "<group>"; };
+		A0BB58AC2C2752A500C828EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A0BB58B22C27563D00C828EB /* CaptionText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionText.swift; sourceTree = "<group>"; };
+		A0BB58B52C2759DC00C828EB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A0BB58B72C2759EE00C828EB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A0BB58BC2C27EF7200C828EB /* ViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A03C29772C2B42C5003F1633 /* Signin */ = {
+			isa = PBXGroup;
+			children = (
+				A03C29782C2B42F2003F1633 /* SignInView.swift */,
+				A03C297A2C2C679C003F1633 /* SignInViewModel.swift */,
+			);
+			path = Signin;
+			sourceTree = "<group>";
+		};
 		A0BB58602C23938D00C828EB = {
 			isa = PBXGroup;
 			children = (
@@ -106,12 +134,15 @@
 		A0BB586B2C23938D00C828EB /* LingoSound */ = {
 			isa = PBXGroup;
 			children = (
+				A0A4C44B2C2B2EFE0033E11F /* GoogleService-Info.plist */,
+				A0BB58AC2C2752A500C828EB /* Info.plist */,
+				A0BB58722C23939000C828EB /* Preview Content */,
 				A0BB58A02C239AA100C828EB /* Utilities */,
 				A0BB589F2C239A9800C828EB /* Services */,
 				A0BB589E2C239A6700C828EB /* Models */,
 				A0BB589D2C239A5F00C828EB /* App */,
 				A0BB589C2C2399D000C828EB /* Resources */,
-				A0BB589B2C2399C400C828EB /* Scenes */,
+				A0BB589B2C2399C400C828EB /* Views */,
 				A0BB58702C23939000C828EB /* Assets.xcassets */,
 				A0BB58752C23939000C828EB /* Persistence.swift */,
 				A0BB58772C23939000C828EB /* LingoSound.xcdatamodeld */,
@@ -124,7 +155,8 @@
 			children = (
 				A0BB58732C23939000C828EB /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			name = "Preview Content";
+			path = "Scenes/Account/Preview Content";
 			sourceTree = "<group>";
 		};
 		A0BB58812C23939000C828EB /* LingoSoundTests */ = {
@@ -144,17 +176,19 @@
 			path = LingoSoundUITests;
 			sourceTree = "<group>";
 		};
-		A0BB589B2C2399C400C828EB /* Scenes */ = {
+		A0BB589B2C2399C400C828EB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A0BB58A12C239D5A00C828EB /* Account */,
+				A0BB58B12C27561F00C828EB /* Components */,
+				A0BB58B02C27560600C828EB /* Scenes */,
 			);
-			path = Scenes;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		A0BB589C2C2399D000C828EB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A0BB58AA2C2750C600C828EB /* Fonts */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -194,11 +228,54 @@
 		A0BB58A12C239D5A00C828EB /* Account */ = {
 			isa = PBXGroup;
 			children = (
-				A0BB58722C23939000C828EB /* Preview Content */,
-				A0BB586E2C23938D00C828EB /* ContentView.swift */,
+				A0BB586E2C23938D00C828EB /* AccountView.swift */,
 				A0BB58A62C252ED000C828EB /* AccountViewModel.swift */,
 			);
 			path = Account;
+			sourceTree = "<group>";
+		};
+		A0BB58AA2C2750C600C828EB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A0BB58AB2C2750EE00C828EB /* NerkoOne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A0BB58B02C27560600C828EB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A03C29772C2B42C5003F1633 /* Signin */,
+				A0BB58B92C275A8D00C828EB /* Base */,
+				A0BB58B42C2759C100C828EB /* Home */,
+				A0BB58A12C239D5A00C828EB /* Account */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A0BB58B12C27561F00C828EB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A0BB58B22C27563D00C828EB /* CaptionText.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A0BB58B42C2759C100C828EB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A0BB58B52C2759DC00C828EB /* HomeViewModel.swift */,
+				A0BB58B72C2759EE00C828EB /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A0BB58B92C275A8D00C828EB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A0BB58BC2C27EF7200C828EB /* ViewWrapper.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +366,9 @@
 				Base,
 			);
 			mainGroup = A0BB58602C23938D00C828EB;
+			packageReferences = (
+				A03C29762C2B41DC003F1633 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = A0BB586A2C23938D00C828EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -306,6 +386,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0BB58742C23939000C828EB /* Preview Assets.xcassets in Resources */,
+				A0A4C44C2C2B2EFF0033E11F /* GoogleService-Info.plist in Resources */,
+				A0BB58AD2C2752E300C828EB /* NerkoOne-Regular.ttf in Resources */,
 				A0BB58712C23939000C828EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +396,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0BB58AE2C2752E400C828EB /* NerkoOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +404,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0BB58AF2C2752E500C828EB /* NerkoOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,11 +418,17 @@
 				A0BB58A32C24EA2400C828EB /* Constants.swift in Sources */,
 				A0BB58A72C252ED000C828EB /* AccountViewModel.swift in Sources */,
 				A0BB58762C23939000C828EB /* Persistence.swift in Sources */,
+				A0BB58B62C2759DC00C828EB /* HomeViewModel.swift in Sources */,
+				A0BB58BD2C27EF7200C828EB /* ViewWrapper.swift in Sources */,
 				A0BB58A92C2532BC00C828EB /* AuthenticationServices.swift in Sources */,
+				A0BB58B82C2759EE00C828EB /* HomeView.swift in Sources */,
 				A0BB58792C23939000C828EB /* LingoSound.xcdatamodeld in Sources */,
-				A0BB586F2C23938D00C828EB /* ContentView.swift in Sources */,
+				A03C297B2C2C679C003F1633 /* SignInViewModel.swift in Sources */,
+				A0BB586F2C23938D00C828EB /* AccountView.swift in Sources */,
 				A0BB586D2C23938D00C828EB /* LingoSoundApp.swift in Sources */,
+				A0BB58B32C27563D00C828EB /* CaptionText.swift in Sources */,
 				A0BB58A52C252E2400C828EB /* Account.swift in Sources */,
+				A03C29792C2B42F2003F1633 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +595,7 @@
 				DEVELOPMENT_TEAM = TR3J5S5CGX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LingoSound/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -534,6 +625,7 @@
 				DEVELOPMENT_TEAM = TR3J5S5CGX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LingoSound/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -668,6 +760,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A03C29762C2B41DC003F1633 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCVersionGroup section */
 		A0BB58772C23939000C828EB /* LingoSound.xcdatamodeld */ = {
